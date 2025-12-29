@@ -1,0 +1,42 @@
+/* 其他全局样式 */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* Element Plus下拉菜单自定义样式 */
+.el-dropdown {
+  vertical-align: top;
+}
+
+.el-dropdown + .el-dropdown {
+  margin-left: 15px;
+}
+
+.el-dropdown-menu__item--divided {
+  position: relative;
+  margin-top: 6px;
+  border-top: 1px solid #e6ebf5;
+}
+
+.el-dropdown-menu__item--divided:before {
+  height: 0;
+}
+
+/* 自定义下拉菜单样式 */
+.el-dropdown-menu {
+  border: 1px solid #F0F0F0 !important;
+  border-radius: 8px !important;
+  box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.08) !important;
+}
+
+.el-dropdown-menu__item {
+  font-size: 14px !important;
+  color: #262626 !important;
+  padding: 12px 16px !important;
+}
+
+.el-dropdown-menu__item:hover {
+  background-color: #f5f5f5 !important;
+}
